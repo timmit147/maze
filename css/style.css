@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+  
+#maze {
+    gap: 1px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+.maze-row{
+    display: flex;
+}
+  
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+  
+.end {
+    background-color: #0f0;
+}
+  
+.wall {
+    background-color: #000;
+}
+  
+.player {
+    background-color: #f00;
+}
