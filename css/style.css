@@ -4,11 +4,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
   
 #maze {
     gap: 1px;
-    background-color: #eee;
     display: flex;
     flex-direction: column;
 }
